@@ -1,0 +1,89 @@
+* body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.home {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/2.jpg);
+    -webkit-background-size: cover;
+    background-position: center center;
+    height: 100vh;    
+}
+
+nav {
+    text-align: center;
+    padding-top: 2%;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 25px;
+}
+
+nav a:hover {
+    color: darkorange;
+}
+
+.banner-area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.banner-area h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 80px 0;
+}
+
+.banner-area h2 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 3em;
+    line-height: 0;
+}
+
+.banner-area h2 span {
+    color: darkorange;
+}
+
+@media(max-width: 800px) {
+    .home {
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/2b.jpg);
+    }
+    
+    nav a {
+        font-size: 11px;
+        margin: 0 10px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .banner-area h2 {
+        font-size: 1.7em;
+    }
+
+    .banner-area h3 {
+        margin: 0 0 60px 0;
+    }
+}
